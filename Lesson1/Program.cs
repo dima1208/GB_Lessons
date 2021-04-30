@@ -31,7 +31,7 @@ namespace Distance
             double y2 = Convert.ToDouble(Console.ReadLine());
             double dist = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
             Console.WriteLine($"\nРасстояние между точками: {dist:0.00}");
-            Console.WriteLine("Расстояние между точками (метод): {0:0.00}", DistCount(x1, y1, x2, y2));
+            Console.WriteLine("Расстояние между точками (метод): {0:F2}", DistCount(x1, y1, x2, y2));
             Console.ReadLine();
         }
     }
